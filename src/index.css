@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/public/fonts/Free-Sans/FreeSans.otf") format("otf");
+  font-family: "Poppins";
+  src: url("/public/fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+  src: url("/public/fonts/Poppins/Poppins-Bold.ttf") format("ttf");
+  src: url("/public/fonts/Poppins/Poppins-Light.ttf") format("ttf");
+
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Kiona Regular", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("/public/assets/background.png");
+  background-color: #14201e;
+  z-index: 0;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  color: white;
+}
+h1, h2, h3, h4{
+  font-family:  "Poppins", 'Segoe UI', 'Roboto', sans-serif;
+}
+h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+a{
+  text-decoration: none;
+}
+strong{
+  background-color: #f3ec78;
+    background: linear-gradient(45deg, #C0F6AE, #77D8A7);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
