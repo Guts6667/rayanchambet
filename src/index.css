@@ -27,11 +27,19 @@ code {
 }
 *{
   color: white;
+  font-size: 14px;
+ 
+
 }
 h1, h2, h3, h4{
   font-family:  "Poppins", 'Segoe UI', 'Roboto', sans-serif;
 }
 h1{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h2{
   font-size: 28px;
   font-weight: 700;
 }
@@ -46,4 +54,34 @@ strong{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+}
+
+button{
+  background: linear-gradient(97.53deg, #C0F7AE 13.61%, #70D5A3 95.72%);
+box-shadow: 0px 5px 30px rgba(192, 247, 174, 0.3);
+border-radius: 15px;
+border-style: none;
+color: black;
+padding: 15px 50px;
+width: fit-content ;
+font-weight: 600;
+cursor: pointer;
+}
+button:hover{
+  color: white;
+  background: linear-gradient(97.53deg, #c0f7aec2 13.61%, #70d5a3d9 95.72%);
+}
+
+@media only screen and (min-width: 1024px){
+  *{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 36px;
+    font-weight: 700;
+  }
 }

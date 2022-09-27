@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 0,
+        "title" : "SaudiExcellenceCo",
+        "img" : "",
+        "description" : "SaudiExcellenceCo's website is the proof that quality can be reached even with a short deadline. They came with a challenge: 10 days to create a unique website to showcase at the AI Summit in Dubaï. It took 8 days from the design to the creation and release.",
+        "link" : "https://www.saudiexcellenceco.com"
+    },
+    {
+        "id" : 1,
+        "title" : "Sarah Roi",
+        "img" : "",
+        "description" : "Sarah is a pedagogical engineer working with the most luxurious brands in the world. She needed a solid website with a strong identity and a clear message. Checkout her amazing homepage! ",
+        "link" : "https://www.sarahroi.com"
+    },
+    {
+        "id" : 2,
+        "title" : "Oh My Food",
+        "img" : "",
+        "description" : "Oh My Food, a fictional application that showcase a succession of seemless animations and transitions.",
+        "link" : "https://ohmyf-cf02d.web.app/index.html"
+    },
+    {
+        "id" : 3,
+        "title" : "BLOB Agency",
+        "img" : "",
+        "description" : "The most unique, fresh and responsible agency. Take a look at BLOB Agency.",
+        "link" : ""
+    },
+    {
+        "id" : 4,
+        "title" : "Kasa",
+        "img" : "",
+        "description" : "Kasa, a fictional application made with React.Js, or how to share all of your apartments and their specifity while preserving the harmony of your app and your code.",
+        "link" : "https://kasa-guts6667.netlify.app"
+    },
+    {
+        "id" : 5,
+        "title" : "Les Petits Plats",
+        "img" : "",
+        "description" : "Don't mind the simplicity, this fictional application, hides a strong research algorithm.",
+        "link" : "https://guts6667.github.io/Y2_P7_Rayan_Chambet_Les_Petits_Plats/"
+    },
+    {
+        "id" : 6,
+        "title" : "Fisheye",
+        "img" : "",
+        "description" : "Fisheye, a fictional application for photographers. Simple, yet solid, it only need a talented UI/Designer to take it to the next level.",
+        "link" : "https://guts6667.github.io/Y2_P6_Fisheye/index.html"
+    }
+   
+]

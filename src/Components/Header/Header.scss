@@ -3,7 +3,7 @@ header {
   position: fixed;
   height: 100px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   z-index: 5;
   background: linear-gradient(
@@ -15,6 +15,7 @@ header {
 .container__header {
   &-burger {
     z-index: 7;
+    margin-left: 10%;
     @media only screen and (min-width: 1024px) {
       display: none;
     }
@@ -66,11 +67,16 @@ header {
   &-title {
     display: flex;
     align-items: center;
+    margin-right: 10%;
+    @media only screen and (min-width: 1024px) {
+      margin-left: 10%;
+    }
   }
   &-navXl {
     display: flex;
     justify-content: space-around;
-    min-width: 30%;
+    min-width: 35%;
+    margin-right: 10%;
     @media only screen and (max-width: 1024px) {
       display: none;
     }
