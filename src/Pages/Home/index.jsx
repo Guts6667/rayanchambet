@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../../Components/About";
 import Portfolio from "../../Components/Portfolio";
 import "./Home.scss"
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <button className="container__home-btn">Start a project</button>
         </section>
         <Portfolio />
+        <About />
         </div>
         
     )

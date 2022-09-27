@@ -43,6 +43,10 @@ h2{
   font-size: 28px;
   font-weight: 700;
 }
+h3{
+  font-size: 16px;
+  font-weight: 700;
+}
 a{
   text-decoration: none;
 }
@@ -50,7 +54,7 @@ strong{
   background-color: #f3ec78;
     background: linear-gradient(45deg, #C0F6AE, #77D8A7);
     background-size: 100%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
@@ -71,11 +75,13 @@ button:hover{
   color: white;
   background: linear-gradient(97.53deg, #c0f7aec2 13.61%, #70d5a3d9 95.72%);
 }
-
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 768px){
   *{
     font-size: 20px;
   }
+}
+@media only screen and (min-width: 1024px){
+ 
   h1{
     font-size: 28px;
     font-weight: 700;
@@ -83,5 +89,8 @@ button:hover{
   h2{
     font-size: 36px;
     font-weight: 700;
+  }
+  h3{
+    font-size: 24px;
   }
 }

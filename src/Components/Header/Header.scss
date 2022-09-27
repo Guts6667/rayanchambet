@@ -15,7 +15,7 @@ header {
 .container__header {
   &-burger {
     z-index: 7;
-    margin-left: 10%;
+    margin-left: 6%;
     @media only screen and (min-width: 1024px) {
       display: none;
     }
@@ -67,16 +67,16 @@ header {
   &-title {
     display: flex;
     align-items: center;
-    margin-right: 10%;
+    margin-right: 6%;
     @media only screen and (min-width: 1024px) {
-      margin-left: 10%;
+      margin-left: 6%;
     }
   }
   &-navXl {
     display: flex;
     justify-content: space-around;
     min-width: 35%;
-    margin-right: 10%;
+    margin-right: 6%;
     @media only screen and (max-width: 1024px) {
       display: none;
     }

@@ -1,5 +1,5 @@
 .container {
-  padding: 0 10%;
+  padding: 0 6%;
   &__home {
     min-height: 100vh;
     display: flex;
@@ -22,5 +22,168 @@
   }
   &__portfolio {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &-card {
+      overflow: scroll;
+      display: flex;
+      justify-content: flex-start;
+      row-gap: 20px;
+      padding: 50px 0;
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+      /* Track */
+      &::-webkit-scrollbar-track {
+        opacity: 0;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        opacity: 0;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        opacity: 0;
+      }
+      .chevron {
+        width: 25px;
+        z-index: 2;
+        position: absolute;
+        align-self: center;
+        cursor: pointer;
+
+        &-left {
+          left: 0;
+        }
+        &-right {
+          right: 0;
+        }
+      }
+    }
+
+    .box-portfolio {
+      background: rgba(217, 217, 217, 0.25);
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      row-gap: 10px;
+      margin: 0 30px;
+      width: 80%;
+      height: 60vh;
+      @media only screen and (min-width: 768px) {
+        width: 50%;
+      }
+      @media only screen and (min-width: 1024px) {
+        width: 30%;
+      }
+      img {
+        object-fit: cover;
+        border-radius: 20px;
+        width: auto;
+        height: 55%;
+      }
+      h3 {
+        margin-block: 0;
+        background-color: #f3ec78;
+        background: linear-gradient(45deg, #c0f6ae, #77d8a7);
+        background-size: 100%;
+        background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+      }
+      p {
+        max-height: 100px;
+        overflow: auto;
+      }
+      button {
+        display: flex;
+        margin: auto;
+      }
+    }
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 20px;
+
+    &-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 20px;
+      @media only screen and (min-width: 1024px) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    &-bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media only screen and (min-width: 1024px) {
+        justify-content: space-around;
+        width: 50%;
+      }
+    }
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin-top: 30px;
+      background-color: rgba(217, 217, 217, 0.02);
+      border-radius: 25px;
+      // width: 80%;
+      margin: auto;
+      justify-content: space-evenly;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+      h3 {
+        align-self: flex-start;
+      }
+      @media only screen and (min-width: 768px) {
+        width: auto;
+      }
+      @media only screen and (min-width: 1024px) {
+        width: 40%;
+        margin: 0;
+      }
+    }
+    &-textLeft {
+      border-left: 2px solid #99e6aa;
+      padding-left: 10px;
+      width: 75%;
+      // box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 0px 20px 20px 0px;
+    }
+    &-textRight {
+      border-right: 2px solid #99e6aa;
+      padding-right: 10px;
+      align-self: flex-end;
+      width: 75%;
+      text-align: right;
+      // box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 20px 0px 0px 20px;
+    }
+    @media only screen and (min-width: 768px) {
+      .container__about-textLeft,
+      .container__about-textRight {
+        width: 70%;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+      // box-shadow: 0px 1px 10px #99e6aa;
+      width: 50%;
+    }
   }
 }
