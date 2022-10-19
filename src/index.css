@@ -16,6 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/public/assets/background.png");
+  background-size: cover;
+  background-attachment: fixed;
   background-color: #14201e;
   z-index: 0;
 }
@@ -27,7 +29,7 @@ code {
 }
 *{
   color: white;
-  font-size: 14px;
+  font-size: 16px;
  
 
 }
@@ -44,7 +46,7 @@ h2{
   font-weight: 700;
 }
 h3{
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
 }
 a{

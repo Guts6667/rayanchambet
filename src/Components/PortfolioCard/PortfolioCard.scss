@@ -1,0 +1,33 @@
+.box-portfolio {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  row-gap: 25px;
+  &-left {
+    text-align: left;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+  &-right {
+    text-align: end;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row-reverse;
+    }
+  }
+  img {
+    object-fit: cover;
+  }
+  &-description {
+    h3 {
+      font-size: 32px;
+    }
+    line-height: 30px;
+    @media only screen and (min-width: 1024px) {
+      width: 45%;
+    }
+  }
+}

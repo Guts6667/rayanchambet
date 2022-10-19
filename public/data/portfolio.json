@@ -4,50 +4,39 @@
         "title" : "SAUDIEXCELLENCECO",
         "img" : "SaudiExcellenceCo.svg",
         "description" : "SaudiExcellenceCo's website is the proof that quality can be reached even with a short deadline. They came with a challenge: 10 days to create a unique website to showcase at the AI Summit in Dubaï. It took 8 days from the design to the creation and release.",
-        "link" : "https://www.saudiexcellenceco.com"
+        "link" : "https://www.saudiexcellenceco.com",
+        "position" : "left"
     },
     {
         "id" : 1,
         "title" : "MBUZZ Esports",
         "img" : "MbuzzEsports.svg",
         "description" : "MBUZZ Esports is brand new branch from MBUZZ. In a matter of a few days we managed to deliver a structured application with a playful design. We're proud of this collaboration which brought our website to the Gitex 2022.",
-        "link" : "https://mbuzzesports.com"
+        "link" : "https://mbuzzesports.com",
+        "position" : "right"
     },
     {
         "id" : 2,
         "title" : "SARAH ROI",
-        "img" : "SarahRoi.png",
+        "img" : "SarahRoi.svg",
         "description" : "Sarah is a pedagogical engineer working with the most luxurious brands in the world. She needed a solid website with a strong identity and a clear message. Checkout her amazing homepage! ",
-        "link" : "https://www.sarahroi.com"
-    },
+        "link" : "https://www.sarahroi.com",
+        "position" : "left"
+        },
     {
         "id" : 3,
         "title" : "OH MY FOOD",
-        "img" : "OhMyFood.png",
+        "img" : "OhMyFood.svg",
         "description" : "Oh My Food, a fictional application that showcase a succession of seemless animations and transitions.",
-        "link" : "https://ohmyf-cf02d.web.app/index.html"
-    },
-  
+        "link" : "https://ohmyf-cf02d.web.app/index.html",
+        "position" : "right"
+        },
     {
         "id" : 4,
-        "title" : "KASA",
-        "img" : "Kasa.png",
-        "description" : "Kasa, a fictional application made with React.Js, or how to share all of your apartments and their specifity while preserving the harmony of your app and your code.",
-        "link" : "https://kasa-guts6667.netlify.app"
-    },
-    {
-        "id" : 5,
-        "title" : "LES PETITS PLATS",
-        "img" : "LesPetitsPlats.png",
-        "description" : "Don't mind the simplicity, this fictional application, hides a strong research algorithm.",
-        "link" : "https://guts6667.github.io/Y2_P7_Rayan_Chambet_Les_Petits_Plats/"
-    },
-    {
-        "id" : 6,
-        "title" : "FISHEYE",
-        "img" : "Fisheye.png",
-        "description" : "Fisheye, a fictional application for photographers. Simple, yet solid, it only needs a talented UI/Designer to take it to the next level.",
-        "link" : "https://guts6667.github.io/Y2_P6_Fisheye/index.html"
+        "title" : "Github",
+        "img" : "Github.svg",
+        "description" : "They are many more projects presents on my Github account, take a look if you're interested in them! ",
+        "link" : "https://github.com/Guts6667",
+        "position" : "left"
     }
-   
 ]
