@@ -52,7 +52,7 @@ h3{
 a{
   text-decoration: none;
 }
-strong{
+.strong-gradient{
   background-color: #f3ec78;
     background: linear-gradient(45deg, #C0F6AE, #77D8A7);
     background-size: 100%;
