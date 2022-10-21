@@ -21,7 +21,7 @@ form {
     border-radius: 100px;
   }
   textarea {
-    height: 100px;
+    height: 150px;
     border-radius: 25px;
   }
   .submit-btn {
@@ -31,10 +31,9 @@ form {
     border-radius: 15px;
     border-style: none;
     color: black;
-    padding: 15px 50px;
     width: fit-content;
 
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
     &:hover {
       color: white;

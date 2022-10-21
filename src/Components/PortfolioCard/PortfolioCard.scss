@@ -20,6 +20,10 @@
   }
   img {
     object-fit: cover;
+    width: 100%;
+    @media only screen and (min-width: 1024px) {
+      width: 25%;
+    }
   }
   &-description {
     line-height: 30px;

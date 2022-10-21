@@ -2,7 +2,7 @@
     {
         "id" : 0,
         "title" : "SAUDIEXCELLENCECO",
-        "img" : "SaudiExcellenceCo.svg",
+        "img" : "SaudiExcellenceCo.png",
         "description" : "SaudiExcellenceCo's website is the proof that quality can be reached even with a short deadline. They came with a challenge: 10 days to create a unique website to showcase at the AI Summit in Dubaï. It took 8 days from the design to the creation and release.",
         "link" : "https://www.saudiexcellenceco.com",
         "position" : "left"
@@ -10,7 +10,7 @@
     {
         "id" : 1,
         "title" : "MBUZZ Esports",
-        "img" : "MbuzzEsports.svg",
+        "img" : "MbuzzEsports.png",
         "description" : "MBUZZ Esports is brand new branch from MBUZZ. In a matter of a few days we managed to deliver a structured application with a playful design. We're proud of this collaboration which brought our website to the Gitex 2022.",
         "link" : "https://mbuzzesports.com",
         "position" : "right"
@@ -18,7 +18,7 @@
     {
         "id" : 2,
         "title" : "SARAH ROI",
-        "img" : "SarahRoi.svg",
+        "img" : "SarahRoi.png",
         "description" : "Sarah is a pedagogical engineer working with the most luxurious brands in the world. She needed a solid website with a strong identity and a clear message. Checkout her amazing homepage! ",
         "link" : "https://www.sarahroi.com",
         "position" : "left"
@@ -26,7 +26,7 @@
     {
         "id" : 3,
         "title" : "OH MY FOOD",
-        "img" : "OhMyFood.svg",
+        "img" : "OhMyFood.png",
         "description" : "Oh My Food, a fictional application that showcase a succession of seemless animations and transitions.",
         "link" : "https://ohmyf-cf02d.web.app/index.html",
         "position" : "right"
@@ -34,7 +34,7 @@
     {
         "id" : 4,
         "title" : "Github",
-        "img" : "Github.svg",
+        "img" : "Github.png",
         "description" : "They are many more projects presents on my Github account, take a look if you're interested in them! ",
         "link" : "https://github.com/Guts6667",
         "position" : "left"

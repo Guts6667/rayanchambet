@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
 import Header from "./Components/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );
