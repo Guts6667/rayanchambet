@@ -1,4 +1,14 @@
 .container__contact {
   display: flex;
   flex-direction: column;
+  row-gap: 10px;
+
+  &-form {
+    width: 100%;
+    @media only screen and (min-width: 1024px) {
+      display: grid;
+      grid-template-columns: 40% 50%;
+      justify-content: space-between;
+    }
+  }
 }
