@@ -15,7 +15,7 @@ const Portfolio = () => {
     }, [])
     return(
 dataCard && (
-<section className="container__portfolio">
+<section className="container__portfolio" id="portfolio">
             <h2>
                 PORTFOLIO
             </h2>

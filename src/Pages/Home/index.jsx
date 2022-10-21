@@ -7,7 +7,7 @@ const Home = () => {
 
     return(
         <div className="container">
-            <section className= "container__home">
+            <section className= "container__home" id="home">
                 <h2>
                     CREATING <strong className="strong-gradient">WEBSITES</strong> AND <strong className="strong-gradient">APPS</strong><br/>
                     FOR THOSE WHO SEEK <strong className="strong-gradient">CHALLENGES</strong> AND CREATE <strong className="strong-gradient">SOLUTIONS.</strong>

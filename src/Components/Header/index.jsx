@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import BurgerNav from "../BurgerNav";
 import "./Header.scss"
 
 const Header = () => {
@@ -28,14 +27,21 @@ const Header = () => {
                 <h1>Rayan Chambet</h1>
             </div>
             <nav className="container__header-navXl">
-                <a href="#home">Home</a>
+                <a href="#home" >Home</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#about">About</a>
-                <a href="#competences">Competences</a>
+                <a href="#contact">Contact</a>
                 
             </nav>
-            {isOpen ?
-                <BurgerNav /> : ''
+            {isOpen && (
+                <nav className="container__burgerNav">
+            <a href="#home" onClick={toggleBtn}>Home</a>
+            <a href="#portfolio" onClick={toggleBtn}>Portfolio</a>
+            <a href="#about" onClick={toggleBtn}>About</a>
+            <a href="#contact" onClick={toggleBtn}>Contact</a>
+        </nav>
+            )
+                
             }
         </header>
     )
