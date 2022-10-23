@@ -20,49 +20,9 @@
       box-shadow: 0px 0px 10px #99e6aa;
       text-align: end;
     }
-  }
-  &-animation {
-    display: flex;
-    width: 400%;
-    position: relative;
-    overflow: hidden;
-    .text-loop {
-      position: relative;
-      animation: mymove 25s infinite linear;
-    }
-    .text-loop2 {
-      position: relative;
-      animation: mymove 25s infinite linear;
+    &-subtitle {
+      display: flex;
+      flex-direction: row;
     }
   }
-}
-@keyframes mymove {
-  0% {
-    transform: translateX(-100%);
-  }
-  90% {
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-.box-animation {
-  display: flex;
-  width: 200%;
-  overflow: hidden;
-  column-gap: 20px;
-}
-@keyframes mymove2 {
-  0% {
-    transform: translateX(-150%);
-  }
-  100% {
-    transform: translateX(150%);
-  }
-}
-.box-animation2 {
-  display: flex;
-  // width: 200%;
-  overflow: hidden;
-  column-gap: 20px;
 }
