@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/rayan-chambet-27aa941a8/" target={"_blank"} rel="noopener noreferrer">
                     <img src="/assets/Linkedin.svg" alt="Linkedin" />
                     </a>
-                    <a href="https://github.com/Guts6667" target={"_blank"} rel="noopener noreferrer">
+                    <a href="http://www.blob-agency.com" target={"_blank"} rel="noopener noreferrer">
                     <img src="/assets/Blob.svg" alt="BLOB Agency" />
                     </a>
             </div>
