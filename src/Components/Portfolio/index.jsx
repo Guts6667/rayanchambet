@@ -3,9 +3,11 @@ import { useEffect } from "react";
 import PortfolioCard from "../PortfolioCard";
 import "./Portfolio.scss"
 
+/**
+ * Portfolio
+ * @returns {JSX} React Component
+ */
 const Portfolio = () => {
-
-    
 
     const [dataCard, setDataCard] = useState(undefined);
     useEffect(() => {

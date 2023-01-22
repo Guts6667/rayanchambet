@@ -2,8 +2,11 @@ import React from "react";
 import FormContact from "../FormContact";
 import "./Contact.scss"
 
+/**
+ * Contact Section
+ * @returns {JSX} React Component
+ */
 const Contact = () => {
-
 
     return(
 

@@ -1,10 +1,12 @@
 import React from "react";
 import "./PortfolioCard.scss"
 
+/**
+ * PortfolioCard
+ * @returns {JSX} React Component
+ */
 const PortfolioCard = (data) => {
   const {title, img, description, link, position} = data.data;
-
-console.log(position);
 
 return(
     data &&(

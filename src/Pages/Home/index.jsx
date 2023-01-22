@@ -3,6 +3,11 @@ import About from "../../Components/About";
 import Contact from "../../Components/Contact";
 import Portfolio from "../../Components/Portfolio";
 import "./Home.scss"
+
+/**
+ * Home Section
+ * @returns {JSX} React Component
+ */
 const Home = () => {
 
     return(
