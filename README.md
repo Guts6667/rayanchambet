@@ -1,4 +1,4 @@
-<img width="500" alt="Capture d’écran 2021-09-03 à 04 00 12" src="/public/assets/Rayan_Crimages.jpg">
+<img width="250" alt="Capture d’écran 2021-09-03 à 04 00 12" src="/public/assets/Rayan_Crimages.jpg">
 
 # Project Rayan Chambet 🦾
 
